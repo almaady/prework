@@ -1,0 +1,163 @@
+body{
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: lighter;
+  margin: 0; 
+  }
+
+  nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    height: 50px;
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+  }
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .header{
+    background-color:rgb(32, 101, 136);
+    padding-bottom: 30px;
+    color: rgba(255,255,255,0.8);
+  }
+  .build{
+    margin:0 auto;
+    width: 50%;
+    display: inline-block;
+    z-index: 0;
+    position:absolute;
+    }
+  .barra{
+    background:rgb(32, 101, 136);
+    height: 50px;
+  }
+  .barra img{
+    height:30px;
+    float: left;
+    padding:10px;
+  }
+  .barra span img{
+    height:30px;
+    float: right;
+    padding-right:30px;
+  }
+  .barra input{
+    background-color: rgb(31, 82, 111);
+    border: 1px solid grey;
+    width: 75%;
+    height: 30px;
+    margin-top: 5px;  
+  }
+  #lupa{
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+  }
+  header a {
+ text-decoration: none;
+ color:white;
+  }
+  #imagen-fondo{
+    float: right;
+    width: 100%;
+    display: inline-block;
+    z-index: -1;
+    height: 500px;
+  } 
+  .build button{
+    background-color: rgb(240, 146, 51);
+    color: white;
+    border-radius: 020px 020px;
+    padding:10px;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border: none;
+  }
+  .collaboration-container{
+    background-color: rgb(39, 53, 71);
+    color: white;
+    padding-top: 40px;
+
+  }
+
+  .collaboration{
+    margin-left: 500px;
+    width:50%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .collaboration-container img{
+    width: 30%;
+    float: left;
+    padding-left: 100px;
+  }
+
+  h1{
+    font-size: 2em;
+    font-weight: lighter;
+  }
+  .what-is{
+    background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+    position: relative;
+  }
+  .what-is-text{
+    position: absolute;
+    left: 150px;
+    width: 30%;
+    top: 100px;
+   
+  }
+  .what-is-text button{
+    background-color: rgb(49, 68, 88);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 15px;
+  }
+  .collaboration button{
+    background-color: rgb(203, 56, 55);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: lighter;
+  }
+  .col{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    color: rgb(135, 145, 156);
+  }
+  .col h3{
+    color: rgb(83, 88, 98);
+  }
+  .center{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+  }
+  .col a{
+    color:rgb(208, 74, 73);
+    text-decoration: none;
+  }
